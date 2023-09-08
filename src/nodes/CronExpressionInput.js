@@ -244,7 +244,7 @@ export class CronExpressionInput extends CronComponent {
         this.sendEvent();
     }
     modalToggle() {
-        this.getElement('.modal').classList.toggle('show');
+        this.getElement('.cron-modal').classList.toggle('show');
     }
     generateCron(pos, values, value) {
         var val = values.split(' ');

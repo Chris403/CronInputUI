@@ -268,7 +268,7 @@ cron-input-ui .close2:hover {
     opacity: 0.6;
 }
 
-cron-input-ui .modal {
+cron-input-ui .cron-modal {
     position: fixed;
     top: 0;
     right: 0;
@@ -281,13 +281,13 @@ cron-input-ui .modal {
     outline: 0;
 }
 
-cron-input-ui .modal-dialog {
+cron-input-ui .cron-modal-dialog {
     position: relative;
     width: auto;
     margin: 10px;
 }
 
-cron-input-ui .modal-content {
+cron-input-ui .cron-modal-content {
     position: relative;
     background-color: #fff;
     -webkit-background-clip: padding-box;
@@ -300,28 +300,28 @@ cron-input-ui .modal-content {
     box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
 }
 
-cron-input-ui .modal-header {
+cron-input-ui .cron-modal-header {
     padding: 15px;
 }
 
-cron-input-ui .modal-header .close2 {
+cron-input-ui .cron-modal-header .close2 {
     margin-top: -2px;
 }
 
-cron-input-ui .modal-body {
+cron-input-ui .cron-modal-body {
     position: relative;
     top: -15px;
     padding: 15px;
     padding-bottom: 0px;
 }
 
-cron-input-ui .modal-dialog {
+cron-input-ui .cron-modal-dialog {
     width: 600px;
     margin: 30px auto;
 }
 
-cron-input-ui .modal-header:after,
-cron-input-ui .modal-header:before,
+cron-input-ui .cron-modal-header:after,
+cron-input-ui .cron-modal-header:before,
 cron-input-ui .nav:after,
 cron-input-ui .nav:before,
 cron-input-ui .panel-body:after,
@@ -330,7 +330,7 @@ cron-input-ui .panel-body:before {
     content: " ";
 }
 
-cron-input-ui .modal-header:after,
+cron-input-ui .cron-modal-header:after,
 cron-input-ui .nav:after,
 cron-input-ui .panel-body:after {
     clear: both;

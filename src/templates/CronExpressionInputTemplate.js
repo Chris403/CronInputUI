@@ -11,10 +11,10 @@ export function CronExpressionInputTemplateGenerator(obj, objLang) {
 </div>
 <small class="cronExpressionError hidden" style="color: red; margin-top: 5px; margin-bottom: 5px;">${objLang.invalidCron}</small>
 <small class="cronExpressionMissing hidden" style="color: red; margin-top: 5px; margin-bottom: 5px;">${objLang.missingCron}</small>
-<div class="modal" tabindex="-1">
-    <div class="modal-dialog" style="width: 900px;">
-        <div class="modal-content" style="height: 500px">
-            <div class="modal-header" style="height: 0px; padding-bottom: 30px;">
+<div class="cron-modal" tabindex="-1">
+    <div class="cron-modal-dialog" style="width: 900px;">
+        <div class="cron-modal-content" style="height: 500px">
+            <div class="cron-modal-header" style="height: 0px; padding-bottom: 30px;">
                 <span class="close2 cronClose">
                     <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x-circle" fill="${obj.colorMain}" style="font-size: 21px;">
                         <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
@@ -28,7 +28,7 @@ export function CronExpressionInputTemplateGenerator(obj, objLang) {
                     </svg>
                 </span>
             </div>
-            <div class="modal-body" style="padding-top: 0px;">
+            <div class="cron-modal-body" style="padding-top: 0px;">
                 <ul class="nav nav-tabs" style="margin-top: 0px;">
                     <li class="nav-item active in"><a class="nav-link">${objLang.minutes}</a></li>
                     <li class="nav-item"><a class="nav-link">${objLang.hours}</a></li>
